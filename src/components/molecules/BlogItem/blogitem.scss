@@ -1,0 +1,40 @@
+.blog-card {
+  color: #4e4e4e;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.3);
+  width: 320px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+
+  .thumbnail-container {
+    height: 250px;
+    width: 100%;
+
+    .thumbnail-img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    padding: 0 20px;
+    padding-top: 15px;
+
+    .author {
+      margin: 0;
+      margin-top: 4px;
+      color: #aaaaaa;
+    }
+
+    .heading-content {
+      margin: 0;
+    }
+
+    .body-content {
+      text-align: justify;
+      height: 150px;
+      overflow: hidden;
+    }
+  }
+}
